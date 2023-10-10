@@ -18,4 +18,4 @@ class StoreSerializer(serializers.ModelSerializer):
 class VisitSerializer(serializers.ModelSerializer):
     class Meta:
         model = Visit
-        fields = '__all__'
+        fields = ['id', 'datetime']
